@@ -29,7 +29,7 @@ public class L2P4 {
             System.out.println("ANOTHER NUM BETWEEN 1-11 HAS BEEN ADDED");
             sum+=num3;
         }
-
+        input.close();
         // if sum is over 21
         if (sum>21) {
             System.out.println("BUST");
