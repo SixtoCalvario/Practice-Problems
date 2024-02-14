@@ -3,15 +3,16 @@ import java.util.Scanner;
 public class L1P3 {
     public static void main(String[] args) {
         // make scanner object
-        canner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         // take 9 inputs and display sum
         int inputs = 0;
         int sum = 0;
         while(inputs!=9) {
             System.out.print("Enter 9 numbers: ");
-            int inputs = input.nextInt();
-            sum+=inputs;
+            int answer = input.nextInt();
+            sum += answer;
+            inputs++;
         }
         System.out.print("Your sum is: "+sum);
     }
