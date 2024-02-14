@@ -15,6 +15,7 @@ public class L2P1 {
             sum += input.nextInt();
             runs++;
         }
+        input.close();
         System.out.println("Your sum is: "+sum);
     }
 }

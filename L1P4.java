@@ -17,5 +17,6 @@ public class L1P4 {
                 compare = false;
             }
         }
+        input.close();
     }  
 }

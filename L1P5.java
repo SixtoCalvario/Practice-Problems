@@ -15,7 +15,7 @@ public class L1P5 {
             str = input.nextLine();
             strInt = str.length();
         }
-
+        input.close();
         // esacpe of the loop :(
         System.out.println("HOW DARE YOU ESCAPE");
     }

@@ -14,6 +14,7 @@ public class L1P3 {
             sum += answer;
             inputs++;
         }
+        input.close();
         System.out.print("Your sum is: "+sum);
     }
 }
