@@ -35,3 +35,5 @@ Finding the length of a Array:
 Length is a property of the array it is known and does not need to be calculated because you created it in the beginning 
 
 System.out.println(name[0].length());
+
+a refernece address is used to store where you can find the data of an objcet.
