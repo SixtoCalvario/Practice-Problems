@@ -1,0 +1,39 @@
+What is an array? An array is a collection of data of the same type
+Think of it like a carton of eggs 
+Each egg is a piece of data
+Each egg == an element of the array
+
+Array for Strings: 
+String[] names = new String [100];
+		                	  ^- length of the array
+
+Array for int:
+    int[ ] fortniteWins = {1, 2, 3, 4, 5};
+
+Array for double:
+    double[] 
+Array for char:
+
+The 3 commandments of Arrays :<
+    1.Arrays can store ONE type of data at time.
+    2. An array must be initialized with data or length. 
+    3. Size of an array cannot be changed after it is created.
+
+
+Unused Spots of an Array:
+    Default value of an object is null
+    Array is also an object btw gang
+
+Setting value:
+    names[2] = “rah rah ah ah ah”;
+
+Printing Array:
+    System.out.println(name[2]);
+
+Finding the length of a Array:
+    names.length; *THERE IS () BECAUSE ITS A PROPERTY YOU DONKEY!!!*
+Length is a property of the array it is known and does not need to be calculated because you created it in the beginning 
+
+System.out.println(name[0].length());
+
+a refernece address is used to store where you can find the data of an objcet.
