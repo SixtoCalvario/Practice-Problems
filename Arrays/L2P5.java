@@ -6,3 +6,4 @@ So, if a user enters a set of numbers in one line, separated by commas:
  String[ ] arr = input.split(“,”);. Using this idea, take a list of integers from a user (of any length) separated by commas, store them in a String array, convert that array to an int array, and then find the average of the numbers.
 
 */
+        // comment

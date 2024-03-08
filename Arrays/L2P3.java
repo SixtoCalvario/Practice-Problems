@@ -36,6 +36,7 @@ public class L2P3 {
             System.out.println("The physical size is: "+charArray.length);
             // logical size
             System.out.println("The logical size is: "+logialSize);
+        // comment
         }
     }
 }
