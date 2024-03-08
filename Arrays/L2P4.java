@@ -22,6 +22,5 @@ public class L2P4 {
         for(int i=0; i<names.lenget; i++) {
             System.out.println("Name: "+names[i]);
         }
-        // comment
     }
 }
