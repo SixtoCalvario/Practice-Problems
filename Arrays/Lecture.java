@@ -1,3 +1,4 @@
+package Arrays;
 import java.util.Arrays;
 public class Lecture {
     public static void main(String[] args) {
