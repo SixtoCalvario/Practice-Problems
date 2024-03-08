@@ -19,24 +19,23 @@ public class L2P3 {
         int logicalSize = 0;
         // for loop to enter 35 values: 
         for(int i=0; i<35; i++) {
-            System.out.println("Enter your char: ");
+            System.out.print("Enter your char: ");
             char charInput = input.next().charAt(0);
-            
             // checking for upper case value
-            if(65<=charInput&&<=90) {
+            if(65<=charInput&&charInput<=90) {
                 charArray[i] = charInput;
-                logialSize++;
+                logicalSize++;
             } 
             // if its not upper case then its lowercase...
             else{
                 i=35;
             }
-            input.close();
+        }
             // phtsical size
             System.out.println("The physical size is: "+charArray.length);
             // logical size
-            System.out.println("The logical size is: "+logialSize);
-        // comment
-        }
+            System.out.println("The logical size is: "+logicalSize);
+            // close scanner 
+             input.close();
     }
 }

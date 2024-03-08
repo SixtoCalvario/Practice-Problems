@@ -16,10 +16,11 @@ public class L2P4 {
         input.nextLine();
         String[] names = new String[numOfNames];
         for(int i=0; i<names.length; i++) {
-            System.out.println("Enter the name: ");
+            System.out.print("Enter the name: ");
             names[i] = input.nextLine();
         }
-        for(int i=0; i<names.lenget; i++) {
+        input.close();
+        for(int i=0; i<names.length; i++) {
             System.out.println("Name: "+names[i]);
         }
     }
