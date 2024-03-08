@@ -13,6 +13,14 @@ public class L2P4 {
         // user input 
         System.out.print("How many names do you want to enter? ");
         int numOfNames = input.nextInt();
+        input.nextLine();
         String[] names = new String[numOfNames];
+        for(int i=0; i<names.length; i++) {
+            System.out.println("Enter the name: ");
+            names[i] = input.nextLine();
+        }
+        for(int i=0; i<names.lenget; i++) {
+            System.out.println("Name: "+names[i]);
+        }
     }
 }
