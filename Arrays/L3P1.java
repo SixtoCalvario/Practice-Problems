@@ -12,22 +12,30 @@ public class L3P1 {
         // scanner :D
         Scanner input = new Scanner(System.in);
         int[] intArray = new int[20];
+
         // for loop to assign 20 random nums to the array 
         for(int i=0; i<20; i++) {
             intArray[i] = (int)(Math.random()*30+1);
         }
+
+        // taking user input
         System.out.print("What number do you want to search for? : ");
         int userInt = input.nextInt();
         input.close();
+        
         // finding num if not it outputs -1
-        int currentInt = 0;
-        for(int i =0; i<intArray.length(); i++) {
+        boolean intFound = false;
+        for(int i = 0; i<intArray.length; i++) {
             if(userInt==intArray[i]) {
-                System.out.print("The index of your num is "+intArray[i]);
+                System.out.println("Your num is at the following index(es): "+i);
+                intFound = true;
             }
-            else{
-
-            }
+        }
+        if(intFound!=true) {
+            System.out.println("-1");
+        }
+        for(int i=0; i<intArray.length; i++) {
+            System.out.println("The number of index "+i+" is "+intArray[i]);
         }
     }
 }
