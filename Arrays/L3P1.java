@@ -22,7 +22,12 @@ public class L3P1 {
         // finding num if not it outputs -1
         int currentInt = 0;
         for(int i =0; i<intArray.length(); i++) {
-            
+            if(userInt==intArray[i]) {
+                System.out.print("The index of your num is "+intArray[i]);
+            }
+            else{
+
+            }
         }
     }
 }
