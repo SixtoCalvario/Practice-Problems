@@ -20,5 +20,9 @@ public class L3P1 {
         int userInt = input.nextInt();
         input.close();
         // finding num if not it outputs -1
+        int currentInt = 0;
+        for(int i =0; i<intArray.length(); i++) {
+            
+        }
     }
 }
