@@ -8,7 +8,10 @@
  
  */
 package Arrays;
-
+import java.util.Scanner
 public class L3P2 {
-    
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("");
+    }
 }
