@@ -14,8 +14,9 @@ public class L3P3 {
     Scanner input = new Scanner(System.in);
     String[] alphabet = {"A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","Q","X","Y","Z"};
     String[] randomAlphabet = new String[26];
-    // randomized alphabet  
-    for(int i; i<randomAlphabet.length; i++) {
-        
+    // randomized alphabet
+    int shiftAmount = (int)(Math.random()*24);
+    for(int i=0; i<randomAlphabet.length; i++) {
+       randomAlphabet[i] = 
     }
 }
