@@ -3,6 +3,7 @@
  Use a loop to search the list for the smallest number. 
  Display the list, the smallest number and its location.
  */
+// test question 
 package Arrays;
 public class L2P6 {
     public static void main(String[] args) {
