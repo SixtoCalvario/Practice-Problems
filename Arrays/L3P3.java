@@ -24,7 +24,6 @@ public class L3P3 {
         Scanner input = new Scanner(System.in);
         
         // normal alphabet
-        String[] alphabet = {"A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","Q","X","Y","Z"};
         // emppty random a-z array
         String[] randomAlphabet = new String[26];
 

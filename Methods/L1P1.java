@@ -4,5 +4,7 @@ Write a program that has a method called printHello.  The printHello method is p
 package Methods;
 
 public class L1P1 {
-    
+    public static void main(String[] args) {
+        
+    }
 }
