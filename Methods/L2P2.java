@@ -7,7 +7,8 @@ Use the same two numbers for each of the operations.
 
 */
 package Methods;
-
+import java.util.Scanner;
 public class L2P2 {
-    
-}
+    public static void main(String[] args) {
+        
+    }

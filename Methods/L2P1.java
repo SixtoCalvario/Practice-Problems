@@ -8,5 +8,21 @@ All methods are public static void and take no parameters.
 package Methods;
 
 public class L2P1 {
+
+    public static void printName() {
+        System.out.println("Name: Sixto");
+    }
+
+    public static void printID() {
+        System.out.println("ID: 995195");
+    }
+
+    public static void printHeader() {
+        printName();
+        printID();
+    }
     
+    public static void main(String[] args) {
+        printHeader();
+    }    
 }

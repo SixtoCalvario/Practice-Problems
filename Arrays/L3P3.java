@@ -6,7 +6,7 @@
  If they choose to encrypt, find the location of each letter in the original array
  and output (in its place) the letter at the same position in the unordered array. 
   Decrypting would involve working in the opposite direction.
- */
+
 package Arrays;
 import java.util.Scanner;
 public class L3P3 {
@@ -82,3 +82,4 @@ public class L3P3 {
 >>>>>>> 3e3fdbb (yes)
     }
 }
+*/
