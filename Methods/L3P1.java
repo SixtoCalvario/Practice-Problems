@@ -9,4 +9,22 @@ package Methods;
 
 public class L3P1 {
     
+    public static void printClass() {
+        System.out.println("Class: Meep City Scamming 101");
+    }
+
+    public static void printBlock() {
+        System.out.println("Block: All of em :D");
+    }
+
+    public static void printHeader2() {
+        Header1 name = new Header1();
+        name.PrintName();
+        printClass();
+        printBlock();
+    }
+
+    public static void main(String[] args) {
+        printHeader2();
+    }
 }
