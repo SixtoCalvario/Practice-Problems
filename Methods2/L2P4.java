@@ -8,9 +8,9 @@
     Slope - outputs the slope between the two points (look the formula up if you don’t know it)
 
  */
-import java.util.Scanner;
+// this isnt even done bro
 package Methods2;
-
+import java.util.Scanner;
 public class L2P4 {
     
    public static void format(int x1, int y1, int x2, int y2) {
@@ -56,7 +56,9 @@ public class L2P4 {
 
          break;
 
-         default;
+         default:
+
+         break;
       }
    }
 }
