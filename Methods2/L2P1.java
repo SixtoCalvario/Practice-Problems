@@ -10,17 +10,22 @@
 package Methods2;
 
 public class L2P1 {
-    public static void printName(String name) {
-    }
-
-    public static void printID() {
-    }
 
     public static void printHeader(String name, int ID) {
         printName(name);
         printID(ID);
     }
+
+    public static void printName(String name) {
+        System.out.println(name);
+    }
+
+    public static void printID(int ID) {
+        System.out.println(ID);
+    }
+
+
     public static void main(String[] args) {
-     printHeader("myName", 995195);   
+        printHeader("Sixto", 995195);   
     }
 }
