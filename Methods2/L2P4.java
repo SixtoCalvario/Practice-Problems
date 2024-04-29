@@ -39,6 +39,7 @@ public class L2P4 {
       System.out.println("4 = slope");
       System.out.print("ENTER OPTION GRRR");
       int num = input.nextInt(); 
+      input.close();
       switch (num) {
          case 1:
 
