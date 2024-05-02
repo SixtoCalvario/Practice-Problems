@@ -23,8 +23,8 @@ public class L2P5 {
         
         int[] arrayOfInts = new int[10];
         for(int i=0; i<arrayOfInts.length; i++) {
-            int[i] = (int)(Math.random()*10+1);
+            arrayOfInts[i] = (int)(Math.random()*10+1);
         }
-        double avg = average(arrayOfInts[]);
+        double avg = average(arrayOfInts[i]);
     }
 }
