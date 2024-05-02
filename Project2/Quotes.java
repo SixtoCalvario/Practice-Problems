@@ -27,11 +27,16 @@ public class Quotes {
         
         // splits quote into an array bc its easier for me at least 
         String[] quoteArray = str.split(" ");
+
         // Array of Alphabet
         String[] alphabet = {"A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"};
-        // for loop checks the first letter of each index  
+        String[] letterOccurancesArray = new String[alphabet.length];
+        
+        // for loop checks the amount letter occured in each index  
         for(int i=0; i<quoteArray.length; i++) {
+            String currentWord = quoteArray[i];
             
         }
+    
     }
 }
