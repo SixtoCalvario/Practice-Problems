@@ -7,7 +7,8 @@ public class Quotes {
         System.out.print("Enter a Pixar quote: ");
         String quote = input.nextLine().toUpperCase();
         input.close();
-        System.out.print(wordCount(quote));
+        System.out.println(wordCount(quote));
+        letterOccurances(quote);
     }
 
 
@@ -23,20 +24,45 @@ public class Quotes {
 
 
     // determines the amount of times a letter occurs
-    public static String letterOccurances(String str) {
+    public static void letterOccurances(String str) {
         
         // splits quote into an array bc its easier for me at least 
         String[] quoteArray = str.split(" ");
 
-        // Array of Alphabet
+
+        // Array of Alphabet, 
         String[] alphabet = {"A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"};
-        String[] letterOccurancesArray = new String[alphabet.length];
+        int[] letterOccurancesArray = new int[alphabet.length];
         
-        // for loop checks the amount letter occured in each index  
+
+        // for loop gets us to look at 1 word within the sentence
         for(int i=0; i<quoteArray.length; i++) {
             String currentWord = quoteArray[i];
-            
+
+            // for loop counts the amount of times a letter occurs within that one word
+            for(int j=0; j<currentWord.length(); j++) {
+
+                // looking at one letter within one word
+                String currentLetter = currentWord.charAt(j)+"";
+
+                // we get the amount of times a letter occurs 
+                int timesLetterOccured = currentWord.length()-currentWord.replaceAll(currentLetter, "").length() ;
+                
+                // adds the number of times it occurs into our int array
+                for(int k=0; k<alphabet.length; k++) {
+                    if(currentLetter.equals(alphabet[k])){
+                        letterOccurancesArray[k] += timesLetterOccured;
+                    }
+                }
+            }
+
         }
-    
+        
+        for(int i=0; i<alphabet.length; i++) {
+            if(letterOccurancesArray[i]!=0) {
+                System.out.println(letterOccurancesArray[i]+" "+alphabet[i]);
+            }
+        }
+
     }
 }
