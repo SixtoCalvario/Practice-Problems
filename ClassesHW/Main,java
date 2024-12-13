@@ -1,0 +1,6 @@
+public class Main {
+    public static void main(String[] args) {
+        Rational twoAndTwentyOne = new Rational(2,21);
+        System.out.println(twoAndTwentyOne.toString());
+    }
+}
